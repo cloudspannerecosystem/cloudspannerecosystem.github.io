@@ -11,3 +11,5 @@ or moving an existing repository to this organization! All projects
 hosted here need to have good test coverage. We’re happy to help
 you with setting up unit and integration tests, but we rely on your
 contributions for continued maintenance.
+
+Also, see the [Code of Conduct](/code-of-conduct).
