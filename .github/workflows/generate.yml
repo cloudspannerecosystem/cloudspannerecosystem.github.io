@@ -20,6 +20,8 @@ jobs:
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.71.1'
     
     - name: Generate the site with hugo
       run: hugo -d docs-generated/
