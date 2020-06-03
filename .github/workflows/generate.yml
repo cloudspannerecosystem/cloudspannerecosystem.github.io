@@ -17,10 +17,12 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
     
     - name: Generate the site with hugo
-      uses: srt32/hugo-action@v0.0.3
-      args: -d docs-generated/
+      run: hugo -d docs-generated/
 
     - name: diff docs/ and docs-generated
       run: diff -p docs/ docs-generated
