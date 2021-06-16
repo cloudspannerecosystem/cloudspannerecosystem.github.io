@@ -1,2 +1,2 @@
 # cloudspannerecosystem.github.io
-This is the source behind https://cloudspannerecosystem.dev/ using GitHub Pages.
+This GitHub Pages site redirects to https://www.cloudspannerecosystem.dev.
